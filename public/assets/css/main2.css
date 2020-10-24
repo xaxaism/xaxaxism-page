@@ -1657,9 +1657,15 @@ pre code {
     font-family: gamingPixel;
 }
 
-.empire-font{
-    font-family: empire;
+.saudagar-font{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.helvetica-font{
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium'
+}
+
 
 
 /* rotate  */
@@ -1674,12 +1680,39 @@ pre code {
     background-image: url(../../images/static.jpeg);
 }
 .section-one-font-color {
-    color: #1c1d26 !important;
+    color: #181a2b !important;
 }
 
 .header-shadow {
     text-shadow: 1px 1px #ffffff;
 }
+
+.section-one-text-location {
+    position: relative;
+    left: -10px;
+    top: 60px;
+    letter-spacing: 2px;
+    font-family: 'Lato, sans-serif';
+}
+
+.under-construction-text {
+    font-size: 130%;
+    padding-bottom: 10px;
+    color: rgb(24, 15, 15);
+    font-family: 'Lato', sans-serif;
+}
+
+.logo-border {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+
+
 /* Loader */
 
 @-moz-keyframes spinner-show {
@@ -3689,7 +3722,7 @@ body.is-touch #banner {
         box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
     }
     #titleBar .title {
-        color: #ffffff;
+        color: black;
         display: block;
         font-weight: 300;
         height: 44px;
