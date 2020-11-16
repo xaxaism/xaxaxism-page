@@ -3926,3 +3926,19 @@ body.is-touch #banner {
         padding: 0;
     }
 }
+
+/* Video section*/
+.section-video {
+    padding: 0;
+}
+
+.photos-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
